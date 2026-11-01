@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Streamlit run files
+.streamlit/secrets.toml
+
+# Local storage and caches
+faiss_index/
+uploaded_docs/
+.cache/
+huggingface/
+tmp/
+
+# OS specific
+Thumbs.db
+Desktop.ini
+.DS_Store
